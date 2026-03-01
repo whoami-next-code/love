@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestra Historia — Love Letter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Música de fondo opcional -->
+  <audio id="bgMusic" loop>
+    <source src="" type="audio/mpeg">
+  </audio>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero-content fade-in">
+      <h1 class="hero-title">Nuestra Historia</h1>
+      <p class="hero-subtitle">Cada momento contigo es un recuerdo que guardo para siempre.</p>
+    </div>
+    <div class="scroll-hint">↓</div>
+  </header>
+
+  <main>
+    <!-- SECCIÓN FOTOS -->
+    <section class="section section-photos" id="fotos">
+      <h2 class="section-title">Fotos</h2>
+      <p class="section-desc">Guarda nuestros mejores momentos.</p>
+      <form class="upload-form" id="formPhoto" enctype="multipart/form-data">
+        <label class="file-label">
+          <input type="file" name="photo" accept="image/*" class="file-input">
+          <span class="file-button">Elegir foto</span>
+        </label>
+        <button type="submit" class="btn btn-upload">Subir foto</button>
+      </form>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <!-- SECCIÓN VIDEOS -->
+    <section class="section section-videos" id="videos">
+      <h2 class="section-title">Videos</h2>
+      <p class="section-desc">Los recuerdos en movimiento.</p>
+      <form class="upload-form" id="formVideo" enctype="multipart/form-data">
+        <label class="file-label">
+          <input type="file" name="video" accept="video/*" class="file-input">
+          <span class="file-button">Elegir video</span>
+        </label>
+        <button type="submit" class="btn btn-upload">Subir video</button>
+      </form>
+      <div class="video-grid" id="videoGrid"></div>
+    </section>
+
+    <!-- SECCIÓN AUDIOS -->
+    <section class="section section-audios" id="audios">
+      <h2 class="section-title">Audios</h2>
+      <p class="section-desc">Voces y melodías que nos unen.</p>
+      <form class="upload-form" id="formAudio" enctype="multipart/form-data">
+        <label class="file-label">
+          <input type="file" name="audio" accept="audio/*" class="file-input">
+          <span class="file-button">Elegir audio</span>
+        </label>
+        <button type="submit" class="btn btn-upload">Subir audio</button>
+      </form>
+      <div class="audio-list" id="audioList"></div>
+    </section>
+
+    <!-- SECCIÓN CARTAS -->
+    <section class="section section-cartas" id="cartas">
+      <h2 class="section-title">Cartas</h2>
+      <p class="section-desc">Abre una carta y lee lo que siento por ti.</p>
+      <div class="letter-container">
+        <div class="letter" id="letter">
+          <div class="letter-front">
+            <span class="letter-heart">♥</span>
+            <span class="letter-text-front">Para ti</span>
+          </div>
+          <div class="letter-back">
+            <div class="letter-content">
+              <p>Querida Rosario,</p>
+              <p>Estas palabras son solo un pequeño reflejo de todo lo que siento por ti. cuando estabamos juntos fue lo mejor de mi vida algo que estaba esperando en toda la vidsa conocer a alguien y nunca dejarlo pero ya estaba demaciado dañado para amar por ti solo sentia un tipo de amor unico es algo que no se como explicar te amaba con todo el corazon pero se sabia exprezarme pero me gustaba sentirme amado talez por eso me gustaba que me rogabas o no se lo que hicieras pero cuandop te cansaste me sentyia no se triste yo no sabia como expresarme solo queria que tu me dijeras que tengo que hacer como lo debo hacer son muchas cosas que intentaba hacert por ti pero no sabia te juro no se nada no funciono sin alguna orden me jodia mucho cuando tu te devertias sin mio cuando hablabas cobn tu amiga y su flaco cuando te estabas bañandote y son muchas cosas que me desgustaba de ti pero no podia cambiarlo lo intentaba pero nada y para mi estupico cerebvro eso era desisteres yo queria que tywe vieras bien   que te maquillas que te cuides pero nunca lo ghacvias me gustaba verte bien arregla cuando te vias bien era mi debilidas me estabas tenias el rosto perfecto pero ¿por que no te cuidabas no usabas cremas no tye maquillabas ? por que yo te veia comop un causa  pero lo siento no sirvo para esto del amor estoy roto y no sanamere no sirvo para amar estoy demasiado roto no me siento suficiente  no sirvo como buien hijo nio hermano siento que tiodios me odian nadie crea en mi siempre fui la decepcion dew mi familia siempre intentaba ser fuerte me jodia que todos me comparaban con alguien yo era el claro ejemplo de lo que deben ser siempre era mira ahia esta el que no sale en de su cuarto por jugar dota todo era dota cuando latigazs palasos cachetadas recibi hasta que llego mi turbno ya ewra un dalolecente con 18 años que no servia para nada que todos le queria botar de su casa por no servia para nada si si trabajaba lo reglamaban pero enc fin yo estoy aconstumbrado en eso solo una vez llore cuando llego mi tio evis y me dijo elp mejor de topdfa la familia sij que yo sea nadie nucva en mi vida me dijeron algo asi por que era la desepcion era unica forma que la familia se sintiera especial  tu misma sabes cuantos cores tengop nbi asi le sirvo a mi familia solo soy un ejemplo medriocre, si supieras cuantas veces me trate de suicidar pero por alguna razopn nunca se pudo bueno no queri o arecordar masd pero, perdon por ser un cobarde   .</p>
+              <p>perdon por no ser lo que mereces 
+                leeo asi no quioero meterlo al chatgpt para que lo arregle .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con ♥ — Nuestra Historia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
